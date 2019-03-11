@@ -1,0 +1,23 @@
+    #heading {
+        font-family: 'Allura', cursive;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        background-image: url(https://accentwoods.com/wp-content/uploads/2017/09/accentwallwood.jpg);
+        background-size: cover;
+        border: 5px;
+    }
+
+    #bigDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border: 5px black;
+    }
+
+    #bigDiv>div {
+        width: 20%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
